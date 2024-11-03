@@ -25,9 +25,9 @@ class ClassLoader {
         file_put_contents($_SERVER["DOCUMENT_ROOT"] . "/logs/loaders.log", $_SERVER["DOCUMENT_ROOT"] . "/" . str_replace("\\", "/", $name) . ".php\n", FILE_APPEND);
         //echo $name;exit;
         $g_site_root = $_SERVER["DOCUMENT_ROOT"] . "/" . str_replace("\\", "/", $name) . ".php";
-        echo $g_site_root.' ***  ClassLoader <br>';//exit;
+      //  echo $g_site_root.' ***  ClassLoader <br>';//exit;
         include_once($g_site_root);//exit;
-        echo 'ClassLoader  <br>';
+      //  echo 'ClassLoader  <br>';
     }
 }
 ?>

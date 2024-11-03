@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1ee7025-3530-4a37-b6a0-95d98da80c9e" name="sbote_tema6" url="http://it-karkas.com.ua">
+        <fileTransfer rootFolder="/www/sbot.it-karkas.com.ua" host="it-karkas.com.ua" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
